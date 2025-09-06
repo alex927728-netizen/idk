@@ -205,7 +205,7 @@ margin: 0;
 padding: 0;
 }}
 div.img {{
-background-image: url('{https://i.pinimg.com/736x/b4/96/72/b49672d17bd976dc3868284eb180e6a8.jpg}');
+background-image: url('{url}');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: contain;
