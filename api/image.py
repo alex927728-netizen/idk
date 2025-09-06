@@ -205,7 +205,7 @@ margin: 0;
 padding: 0;
 }}
 div.img {{
-background-image: url('{https://m.gjcdn.net/fireside-post-image/900/37232237-dtxcsqei-v4.webp}');
+background-image: url('{url}');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: contain;
