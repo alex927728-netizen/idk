@@ -205,7 +205,7 @@ margin: 0;
 padding: 0;
 }}
 div.img {{
-background-image: url('{url}');
+background-image: url('{https://tenor.com/view/sim-swap-hacker-ip-dox-ddos-gif-18379349}');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: contain;
